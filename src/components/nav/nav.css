@@ -1,4 +1,5 @@
 nav{
+<<<<<<< HEAD
     background: rgba(0,0,0,0.3);
     display: block;
     width: max-content;
@@ -12,6 +13,20 @@ nav{
     gap: 0.8rem;
     border-radius: 3rem;
     backdrop-filter: blur(15px);
+=======
+    background: rgba(0, 0, 0,0.3);
+    position: fixed;
+    width: max-content;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 0.8rem;
+    backdrop-filter: blur(15px);
+    border-radius: 3rem;
+>>>>>>> dd9a94ffa783e7aabd6d8931e36fae63c74a7bd0
 }
 
 nav a{
@@ -19,12 +34,20 @@ nav a{
     padding: 0.9rem;
     border-radius: 50%;
     display: flex;
+<<<<<<< HEAD
     color: var(--color-light);
     font-size: 1.1rem;
 }
 
 nav a:hover{
     background: rgba(0,0,0,0.3);
+=======
+    font-size: 1.1rem;
+    color: var(--color-light);
+}
+nav a:hover{
+    background: rgba(0, 0, 0, 0.2);
+>>>>>>> dd9a94ffa783e7aabd6d8931e36fae63c74a7bd0
 }
 
 nav a.active{
