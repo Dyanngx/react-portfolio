@@ -1,6 +1,6 @@
 import React from 'react';
 import './about.css';
-import  Me from '../../assets/me-about.jpg';
+import  Me from '../../assets/me.png';
 import {FaAward} from 'react-icons/fa';
 import {FiUser} from 'react-icons/fi';
 import {VscFolderLibrary} from 'react-icons/vsc';
@@ -42,5 +42,4 @@ const About = () => {
     </section>
   )
 }
-
 export default About
