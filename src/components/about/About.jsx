@@ -21,7 +21,7 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon'/>
               <h5>Exp</h5>
-              <small>5+ Year Working</small>
+              <small>2+ Year Working</small>
             </article>
             <article className='about__card'>
               <FiUser className='about__icon'/>
@@ -31,10 +31,10 @@ const About = () => {
             <article className='about__card'>
               <VscFolderLibrary className='about__icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>3 Working on</small>
             </article>
           </div> 
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia perferendis ducimus quam ullam placeat enim eligendi molestias architecto minima facere saepe amet corporis aliquid, dolorem voluptatibus minus, dolor, error mollitia.
+          <p>I'm on a journey to find opportunities to grow, challenge limits and enhance self-worth. On that journey, I hope to be able to find a team that is right for me to contribute to creating more value and help me experience more.
           </p>
           <a href="#contact" className='btn btn--primary'>Let's Talk</a>
         </div>
